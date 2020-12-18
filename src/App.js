@@ -16,6 +16,7 @@ import Navbar from "./components/Navbar";
 
 
 import Home from "./page/home";
+import Contact from "./page/contact";
 import Gstpage from "./page/gstservices";
 
 const schemaMarkup = {
@@ -49,6 +50,7 @@ function App() {
               <Route exact path="/" component={Home} />
 			  <Route path="/gst-services" component={Gstpage} />
 			  <Route path="/gst-registration" component={Gstpage} />
+			  <Route path="/contact" component={Contact} />
             </Switch>
           </main>
       </Router>
