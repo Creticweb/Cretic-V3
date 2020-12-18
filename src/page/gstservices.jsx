@@ -2,12 +2,17 @@ import React from 'react';
 import GSTREG from '../components/gstreg';
 import GSTFAQ from '../components/gstfaq';
 import Footer from "../components/footer";
-//import gstbg from "../assets/core/about.jpg";
+import {Helmet} from "react-helmet";
 
 const GSTServices = (props) => {
 
   return (
    <React.Fragment>
+   <Helmet>
+     <title>GST Registration | Cretic Solutions</title>
+      <meta name="keywords" content="GST Registration, Enrollment for GST, New GST Registration, GST Portal Access,GST Registration Online, GST Registration Status, GST Registration Fees" />
+      <meta name="description" content="GST Registration -  Know the GST Registration Online Process, eligibility and documents required for GST Registration . Secure GSTIN number with the help of experts on the applicability and compliances under GST for your business and get your business Registered under GST."/>
+    </Helmet>
     <div class="pt_banner_inner-mod">
     <div class="container">
     <div class="row justify-content-center">
@@ -179,6 +184,26 @@ const GSTServices = (props) => {
             </div>
           </div>
         </div>
+		<div class="creative_box_contact padding-t-12">
+          <div class="container">
+            <div class="content">
+              <div class="row justify-content-center text-center">
+                <div class="col-lg-5">
+                  <div class="title_sections_inner margin-b-4">
+                    <h2 class="c-white" data-aos="fade-up" data-aos-delay="0">GST Registration Online</h2>
+                    <p class="c-light" data-aos="fade-up" data-aos-delay="100">GST is the product of the biggest tax 
+					reform in India which has tremendously improved ease of doing business and increasing the taxpayer
+					 base in India by including millions of small businesses.</p>
+                  </div>
+                  <a href="/contact" class="btn btn_xl_primary bg-red c-white rounded-8" data-aos="fade-up"
+                    data-aos-delay="200">Contact us with a request</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
 	  <Footer/>
     </React.Fragment>
   );
