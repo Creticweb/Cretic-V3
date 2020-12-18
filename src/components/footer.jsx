@@ -23,39 +23,32 @@ const Footer = (props) => {
             </div>
             <div className="col-6 col-md-6 col-lg-2">
               <div className="item_links">
-                <h4>Social</h4>
-                <a className="nav-link" href>Blog</a>
-                <a className="nav-link" href>Facebook</a>
-                <a className="nav-link" href>Twitter</a>
-                <a className="nav-link" href>Instagram</a>
+                <h4>Services</h4>
+                <a className="nav-link" href="/gst-registration">GST Registration</a>
+                <a className="nav-link" href="/gst-filling">GST Filling</a>
+                <a className="nav-link" href="/fssai">FSSAI License</a>
+                <a className="nav-link" href="/msme">MSME Registration</a>
+				<a className="nav-link" href="/trade">Trade License</a>
               </div>
             </div>
             <div className="col-6 col-md-6 col-lg-2">
               <div className="item_links">
-                <h4>Company</h4>
-                <a className="nav-link" href>About</a>
-                <a className="nav-link" href>Affiliates</a>
-                <a className="nav-link" href>Careers</a>
-                <a className="nav-link" href>Legal &amp; Privacy</a>
+                <h4>Business Setup</h4>
+                <a className="nav-link" href="/dsc">Digital Signature Certificate</a>
+                <a className="nav-link" href="/iso">ISO Certification</a>
+                <a className="nav-link" href="/trademark">Trademark Registration</a>
+                <a className="nav-link" href="/apeda">APEDA-RCMC Registration</a>
               </div>
             </div>
             <div className="col-md-6 col-lg-4 mt-4 mt-lg-0">
-              <div className="item_subscribe">
-                <h4>Subscribe</h4>
-                <p>
-                  Subscribe to get the latest<br />
-                  news form us
-                </p>
-                <form className="form-row">
-                  <div className="col-md-11 form-group subscribebtn">
-                    <div className="item_input">
-                      <input type="email" className="form-control rounded-12 border-1" id="exampleInputEmail1" placeholder="Enter email address" aria-describedby="emailHelp" />
-                      <button type="button" className="btn ripple_circle scale rounded-8 btn_subscribe">
-                        <i className="tio send" />
-                      </button>
-                    </div>
-                  </div>
-                </form>
+              <div className="item_links">
+                <h4>Startup</h4>
+				<a className="nav-link" href="/proprietorship">Proprietorship</a>
+				<a className="nav-link" href="/partnership">Partnership</a>
+				<a className="nav-link" href="/opc">One Person Company</a>
+                <a className="nav-link" href="/llp">Limited Liability Partnership</a>
+                <a className="nav-link" href="/pvt">Private Limited Company</a>
+                <a className="nav-link" href="/">Public Limited Company</a>
               </div>
             </div>
           </div>

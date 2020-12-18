@@ -23,7 +23,7 @@ const Navbar = (props) => {
                   <a className="nav-link" href="/">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/gst-services">GST</a>
+                  <a className="nav-link" href="/gst-registration">GST</a>
                 </li>
                <li className="nav-item">
                   <a className="nav-link" href="/start-business">Start Business</a>

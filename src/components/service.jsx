@@ -32,7 +32,7 @@ const Service = (props) => {
                         <p>
                           Completely managed GST registration service until obtaining GSTIN with Expert Support
                         </p>
-                        <a href="/gst-registration" class="btn btn_lg_primary margin-t-2 sweep_top sweep_letter rounded-12 border-1">
+                        <a href="/gst-registration" class="btn btn_md_primary scale border-0 sweep_letter sweep_top bg-black c-white rounded-8">
                           <div class="inside_item">
                             <span data-hover="Start Now!">Start Now!</span>
                           </div>
@@ -68,7 +68,7 @@ const Service = (props) => {
                         <p>
                           The plan is designed to file your GST returns every month and get your business GST compliant.
                         </p>
-                        <a href="/gst-filling" class="btn btn_lg_primary margin-t-2 sweep_top sweep_letter rounded-12 border-1">
+                        <a href="/gst-filling" class="btn btn_md_primary scale border-0 sweep_letter sweep_top bg-black c-white rounded-8">
                           <div class="inside_item">
                             <span data-hover="Start Now!">Start Now!</span>
                           </div>
@@ -109,7 +109,7 @@ const Service = (props) => {
                           As a small enterprise, you can have access to priority sector lending, 
 						  tax exemptions & capital investment and power tariff subsidies.
                         </p>
-                        <a href="/msme" class="btn btn_lg_primary margin-t-2 sweep_top sweep_letter rounded-12 border-1">
+                        <a href="/msme" class="btn btn_md_primary scale border-0 sweep_letter sweep_top bg-black c-white rounded-8">
                           <div class="inside_item">
                             <span data-hover="Start Now!">Start Now!</span>
                           </div>
@@ -119,6 +119,7 @@ const Service = (props) => {
                   </div>
                 </div>
               </div>
+			  
               <div class="col-lg-6 my-auto">
                 <div class="item__section mb-4 mb-lg-0">
                   <div class="media">
@@ -146,7 +147,7 @@ const Service = (props) => {
                           A place of business within a State, 
 						  Corporation or Municipality will require a trade license.
                         </p>
-                        <a href="/trade-license" class="btn btn_lg_primary margin-t-2 sweep_top sweep_letter rounded-12 border-1">
+                        <a href="/trade-license" class="btn btn_md_primary scale border-0 sweep_letter sweep_top bg-black c-white rounded-8">
                           <div class="inside_item">
                             <span data-hover="Start Now!">Start Now!</span>
                           </div>
