@@ -33,7 +33,7 @@ const Main = (props) => {
                 </div>
               </div>
               <div class="col-lg-7 mt-4 mt-lg-0 text-lg-right my-lg-auto">
-                <a href="#" class="btn btn_md_primary sweep_top sweep_letter rounded-8 opacity-1">
+                <a href="/contact" class="btn btn_md_primary sweep_top sweep_letter rounded-8 opacity-1">
                   <div class="inside_item">
                     <span data-hover="Contact">Contact us</span>
                   </div>
