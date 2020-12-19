@@ -114,7 +114,7 @@ const GSTR = (props) => {
                   <div class="title_sections_inner margin-b-4">
                     <h2 class="c-white" data-aos="fade-up" data-aos-delay="0">Still need help?</h2>
                     <p class="c-light" data-aos="fade-up" data-aos-delay="100">Click on the blue round button at the bottom right corner of this page. 
-					You can also email our support team at <a class="c-green2" href="mailto:creticweb@gmail.com">cretocweb@gmail.com</a>.</p>
+					You can also email our support team at <a class="c-green2" href="mailto:creticweb@gmail.com">creticweb@gmail.com</a>.</p>
                   </div>
                   <a href="/contact" class="btn btn_xl_primary bg-red c-white rounded-8" data-aos="fade-up"
                     data-aos-delay="200">Contact us with a request</a>

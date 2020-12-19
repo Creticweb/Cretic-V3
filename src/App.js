@@ -22,6 +22,7 @@ import MSME from "./page/msme";
 import GSTR from "./page/gstr";
 import FSSAI from "./page/fssai";
 import DSC from "./page/dsc";
+import Refund from "./page/refundp";
 
 const schemaMarkup = {
   "@context": "http://schema.org/",
@@ -58,6 +59,7 @@ function App() {
 			  <Route path="/fssai" component={FSSAI} />
 			  <Route path="/gst-filing" component={GSTR} />
 			  <Route path="/dsc" component={DSC} />
+			  <Route path="/refund-policy" component={Refund} />
 			  <Route path="/contact" component={Contact} />
             </Switch>
           </main>
