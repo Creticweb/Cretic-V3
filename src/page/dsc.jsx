@@ -54,7 +54,7 @@ const DSC = (props) => {
             <div class="row justify-content-center text-center">
               <div class="col-lg-5">
                 <div class="title_sections_inner margin-b-5">
-                  <h2>Default Style</h2>
+                  <h2>Process</h2>
                 </div>
               </div>
             </div>

@@ -8801,13 +8801,13 @@ software_web
   display: none;
 }
 .pricing_section .blocks_pricing div div:first-of-type .item__price {
-  background-color: #d0dfff;
+  background-color: #d5e2fd;
 }
 .pricing_section .blocks_pricing div div:nth-of-type(2) .item__price {
-  background-color: #fff4d8;
+  background-color: #f1af07cf;
 }
 .pricing_section .blocks_pricing div div:nth-of-type(3) .item__price {
-  background-color: #ffe4db;
+  background-color: #85f3a5e6;
 }
 .pricing_section .blocks_pricing .item__price {
   border-radius: 8px;
@@ -8879,17 +8879,17 @@ software_web
 }
 .pricing_section .blocks_pricing .item__price .number .coins {
   position: absolute;
-  color: #6c7a87;
+  color: #000;
   font-size: 20px;
   font-weight: 600;
 }
 .pricing_section .blocks_pricing .item__price .number .per {
-  color: #6c7a87;
+  color: #000;
   font-size: 14px;
   font-weight: 400;
 }
 .pricing_section .blocks_pricing .item__price .info_price {
-  color: #6c7a87;
+  color: #000;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 0;

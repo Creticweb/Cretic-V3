@@ -10,11 +10,11 @@ const GSTFAQ = (props) => {
 		    <div class="row justify-content-center">
 			  <div class="container">
                   <div class="banner_title">
-                    <h3>
+                    <h2>
 					The following documents must be 
 					<span class="c-red"> submitted by regular taxpayers</span> 
 					applying for GST registration.
-                    </h3>
+                    </h2>
                   </div>
                 </div>
               </div>
@@ -22,13 +22,13 @@ const GSTFAQ = (props) => {
             <div class="row">
               <div class="col-lg-4">
                 <div class="title_sections">
-                  <h2>PAN card of the business</h2>
+                  <h3>PAN card of the business</h3>
                   <p>GST registration is linked to the PAN of the business. Hence, PAN must be obtained for the legal entity before applying for GST Registration.</p>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="title_sections mb-0">
-                  <h2>Identity proof along with photographs</h2>
+                  <h3>Identity proof along with photographs</h3>
 				  <p>PAN, passport, driving license, aadhar card or voter’s identity card
 				  can be submitted as identity proof. Photographs of the promoters/ proprietors also need to be submitted.
 				  </p>
@@ -36,7 +36,7 @@ const GSTFAQ = (props) => {
               </div>
               <div class="col-lg-4">
                 <div class="title_sections">
-                  <h2>Address proof of promoter</h2>
+                  <h3>Address proof of promoter</h3>
                   <p>Documents like passport, driving license, aadhaar card, 
 				  voters identity card and ration card can be submitted as address proof.</p>
                 </div>
@@ -45,16 +45,14 @@ const GSTFAQ = (props) => {
 			<div class="row">
               <div class="col-lg-4">
                 <div class="title_sections">
-                  <h2>Business registration document</h2>
+                  <h3>Business registration document</h3>
                   <p>Proof of business registration must be submitted for all types of entities. There is no requirement of submitting this document for 
-				  a proprietorship as the proprietor and the entity are essentially considered the same. In case of a partnership firm, the partnership 
-				  deed must be submitted. In case of LLP or Company, the incorporation certificate from MCA must be submitted. The other types of entities like society,
-				  trust, club, government department or body of individuals must provide the registration certificate.</p>
+				  a proprietorship as the proprietor and the entity are essentially considered the same.</p>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="title_sections mb-0">
-                  <h2>Business location proof</h2>
+                  <h3>Business location proof</h3>
 				  <p>Address proof must be provided for all places of businesses mentioned in the GST registration application. The following documents are acceptable as address proof for GST registration.</p>
                 </div>
               </div>
