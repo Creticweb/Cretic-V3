@@ -25,7 +25,7 @@ const Footer = (props) => {
               <div className="item_links">
                 <h4>Services</h4>
                 <a className="nav-link" href="/gst-registration">GST Registration</a>
-                <a className="nav-link" href="/gst-filling">GST Filling</a>
+                <a className="nav-link" href="/gst-filing">GST Filling</a>
                 <a className="nav-link" href="/fssai">FSSAI License</a>
                 <a className="nav-link" href="/msme">MSME Registration</a>
 				<a className="nav-link" href="/trade">Trade License</a>

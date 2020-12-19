@@ -1,8 +1,10 @@
 import React from 'react';
+import GSTRP from "../components/gstrp";
 
 const GSTR = (props) => {
 
   return (
+    <React.Fragment>
     <div class="pt_banner_inner-mod">
     <div class="container">
     <div class="row justify-content-center">
@@ -16,7 +18,9 @@ const GSTR = (props) => {
               </div>
             </div>
           </div>
-        
+          <br/>
+        <GSTRP/>
+        </React.Fragment>
   );
 }
 

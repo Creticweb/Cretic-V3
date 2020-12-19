@@ -68,7 +68,7 @@ const Service = (props) => {
                         <p>
                           The plan is designed to file your GST returns every month and get your business GST compliant.
                         </p>
-                        <a href="/gst-filling" class="btn btn_md_primary scale border-0 sweep_letter sweep_top bg-black c-white rounded-8">
+                        <a href="/gst-filing" class="btn btn_md_primary scale border-0 sweep_letter sweep_top bg-black c-white rounded-8">
                           <div class="inside_item">
                             <span data-hover="Start Now!">Start Now!</span>
                           </div>
