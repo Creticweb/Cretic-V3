@@ -3,7 +3,7 @@ import Home from '../components/banner';
 import Service from "../components/service";
 import Package from "../components/package";
 import Packservice from "../components/packserv";
-import Counter from "../components/counter";
+//import Counter from "../components/counter";
 import Footer from "../components/footer";
 import {Helmet} from "react-helmet";
 
