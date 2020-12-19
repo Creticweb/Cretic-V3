@@ -1,10 +1,14 @@
 import React from 'react';
 import GSTRP from "../components/gstrp";
+import {Helmet} from "react-helmet";
 
 const GSTR = (props) => {
 
   return (
     <React.Fragment>
+    <Helmet>
+     <title>GST Monthly Return Filing Service</title>
+    </Helmet>
     <div class="pt_banner_inner-mod">
     <div class="container">
     <div class="row justify-content-center">
