@@ -38,7 +38,7 @@ const Navbar = (props) => {
               <div className="nav_account btn_demo3">
                 <a href="/" className="btn btn_sm_primary border-0 sweep_letter sweep_top bg-lightgreen c-white rounded-pill">
                   <div className="inside_item">
-                    <span data-hover="Let's go 👋">Whatsapp</span>
+                    <span data-hover="Let's go">Whatsapp</span>
                   </div>
                 </a>
               </div>
