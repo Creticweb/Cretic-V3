@@ -18,6 +18,9 @@ import Navbar from "./components/Navbar";
 import Home from "./page/home";
 import Contact from "./page/contact";
 import Gstpage from "./page/gstservices";
+import MSME from "./page/msme";
+import GSTR from "./page/gstr";
+import FSSAI from "./page/fssai";
 
 const schemaMarkup = {
   "@context": "http://schema.org/",
@@ -50,6 +53,9 @@ function App() {
               <Route exact path="/" component={Home} />
 			  <Route path="/gst-services" component={Gstpage} />
 			  <Route path="/gst-registration" component={Gstpage} />
+			  <Route path="/msme" component={MSME} />
+			  <Route path="/fssai" component={FSSAI} />
+			  <Route path="/gst-filing" component={GSTR} />
 			  <Route path="/contact" component={Contact} />
             </Switch>
           </main>
