@@ -52,9 +52,9 @@ export default function Contact() {
                   <b>COVID19 Note: </b> Services will not be disrupted from our side. Please expect delays from government side in case of any registration.
                 </p>
                 <div data-aos="fade-up" data-aos-delay={200}>
-                  <a href="#contact" className="btn btn_lg_primary sweep_top sweep_letter bg-blue rounded-8 c-white margin-t-3">
+                  <a href="https://tawk.to/chat/5fa676120a68960861bc9741/default" className="btn btn_lg_primary sweep_top sweep_letter bg-blue rounded-8 c-white margin-t-3">
                     <div className="inside_item">
-                      <span data-hover="Let's talk!">Let's talk!</span>
+                      <span data-hover="Let's talk">Live Chat</span>
                     </div>
                   </a>
                 </div>

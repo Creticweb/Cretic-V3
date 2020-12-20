@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
+  Redirect,
 } from "react-router-dom";
 import "./App.css";
 import { Helmet } from "react-helmet";
@@ -23,6 +24,7 @@ import GSTR from "./page/gstr";
 import FSSAI from "./page/fssai";
 import DSC from "./page/dsc";
 import Refund from "./page/refundp";
+import NotFound from "./page/notfound";
 
 const schemaMarkup = {
   "@context": "http://schema.org/",
@@ -61,6 +63,8 @@ function App() {
 			  <Route path="/dsc" component={DSC} />
 			  <Route path="/refund-policy" component={Refund} />
 			  <Route path="/contact" component={Contact} />
+			   <Route path="/not-found" component={NotFound} />
+          <Redirect to="/not-found" />
             </Switch>
           </main>
       </Router>
