@@ -46,10 +46,10 @@ export default function Contact() {
             <div className="col-md-8 col-lg-6">
               <div className="banner_title_inner margin-b-5">
                 <h1 className="c-dark" data-aos="fade-up" data-aos-delay={0}>
-                  Hi, 🖐 we are <span className="c-blue">Rakon.</span>
+                  Hi, 🖐 welcome to <span className="c-blue">Cretic Solutions</span>
                 </h1>
                 <p className="c-gray" data-aos="fade-up" data-aos-delay={100}>
-                  Drop by for a cup of coffe ☕
+                  <b>COVID19 Note: </b> Services will not be disrupted from our side. Please expect delays from government side in case of any registration.
                 </p>
                 <div data-aos="fade-up" data-aos-delay={200}>
                   <a href="#contact" className="btn btn_lg_primary sweep_top sweep_letter bg-blue rounded-8 c-white margin-t-3">

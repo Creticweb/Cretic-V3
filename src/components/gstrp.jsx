@@ -41,9 +41,9 @@ const GSTRP = (props) => {
                         Payable Monthly
                       </li>
                     </ul>
-                    <button type="button" className="btn effect-letter scale rounded-pill btn_md_primary c-white bg-blue">
-                      Get Started Free
-                    </button>
+                     <a href="https://rzp.io/l/Xam6GpAmK" className="btn effect-letter scale rounded-pill btn_md_primary c-white bg-blue">
+                      Order Now!
+                    </a>
                   </div>
                 </div>
               </div>
@@ -95,9 +95,9 @@ const GSTRP = (props) => {
                         Filing of GSTR 1 monthly or Quarterly
                       </li>
                     </ul>
-                    <button type="button" className="btn effect-letter scale rounded-pill btn_md_primary c-white bg-yollow">
-                      Start 14-Days Trial
-                    </button>
+                     <a href="https://rzp.io/l/Xw9hsAe" type="button" className="btn effect-letter scale rounded-pill btn_md_primary c-white bg-yollow">
+                      Order Now!
+                    </a>
                   </div>
                 </div>
               </div>

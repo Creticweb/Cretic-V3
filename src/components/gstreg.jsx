@@ -41,9 +41,9 @@ const GSTReg = (props) => {
                         GST Billing Software
                       </li>
                     </ul>
-                    <button type="button" className="btn effect-letter scale rounded-pill btn_md_primary c-white bg-blue">
-                      Get Started Free
-                    </button>
+                    <a href="https://rzp.io/l/2Ij5LmObg" type="button" className="btn effect-letter scale rounded-pill btn_md_primary c-white bg-blue">
+                      Order Now!
+                    </a>
                   </div>
                 </div>
               </div>
@@ -91,9 +91,10 @@ const GSTReg = (props) => {
                         Free GST Support
                       </li>
                     </ul>
-                    <button type="button" className="btn effect-letter scale rounded-pill btn_md_primary c-white bg-yollow">
-                      Start 14-Days Trial
-                    </button>
+                    <a href="https://rzp.io/l/GIL4Dcs" type="button" className="btn effect-letter scale rounded-pill btn_md_primary c-white bg-yollow">
+                       Order Now!
+                       </a>
+                    
                   </div>
                 </div>
               </div>
@@ -136,9 +137,9 @@ const GSTReg = (props) => {
                         GST Billing Software
                       </li>
                     </ul>
-                    <button type="button" className="btn scale effect-letter rounded-pill btn_md_primary c-white bg-orange-red">
-                      Contact With Us
-                    </button>
+                     <a href="https://rzp.io/l/HYXqmSLe" type="button" className="btn scale effect-letter rounded-pill btn_md_primary c-white bg-orange-red">
+                      Order Now!
+                      </a>
                   </div>
                 </div>
               </div>
