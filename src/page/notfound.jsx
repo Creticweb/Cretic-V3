@@ -1,5 +1,5 @@
 import React from 'react';
-import 404 from '../assets/core/404.svg';
+import errorp from '../assets/core/404.svg';
 import { Helmet } from "react-helmet";
 
 const NotFound = (props) => {
@@ -13,7 +13,7 @@ const NotFound = (props) => {
           <div className="row justify-content-center text-center">
             <div className="col-md-8 col-lg-6">
               <div className="banner_title_inner margin-b-5">
-              <img class="img-fluid" src={404} alt="404 Page"/>
+              <img class="img-fluid" src={errorp} alt="404 Page"/>
                 <h1 className="c-dark" data-aos="fade-up" data-aos-delay={0}>
                   We can’t seem to find the page you’re looking for!
                 </h1>
