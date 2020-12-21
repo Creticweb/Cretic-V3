@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import Footer from "../components/footer";
 
 const Privacy = () => {
   return (
@@ -23,7 +24,7 @@ const Privacy = () => {
             <p class="lead text-left">
              We may collect non-personal identification information about Users whenever they interact with our Site. Non-personal identification information may include the browser name, the type of computer and technical information about Users means of connection to our Site, such as the operating system and the Internet service providers' utilized and other similar information.
             </p>
-            <h2 class="title-bg bg-orange color-orange text-center"> 
+            <h2 class="text-center"> 
               WEB BROWSER COOKIES
              </h2>
             <p class="lead text-left">
@@ -61,7 +62,7 @@ const Privacy = () => {
         </div>
       </div>
     </div>
-  
+   <Footer/>
  </React.Fragment>
   );
 };
