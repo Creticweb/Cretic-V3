@@ -9,15 +9,15 @@ const Privacy = () => {
     </Helmet>
 	
     <div class="container">
-      <div class="row medium-padding">
+      <div class="row pt_banner_inner-mod">
         <div class="">
           <div class="">
             <h2>PRIVACY POLICY</h2>
             </div>
             <p class="lead text-left">This Privacy Policy governs the manner in which IndiaFilings.com collects, uses, maintains and discloses information collected from users (each, a "User") of the https://cretic.co.in website ("Site"). This privacy policy applies to the Site and all products and services offered by India Filings.</p>
-            <h2 class="title-bg bg-orange color-orange text-center">PERSONAL IDENTIFICATION INFORMATION</h2>
+            <h2 class="text-center">PERSONAL IDENTIFICATION INFORMATION</h2>
             <p class="lead text-left">We may collect personal identification information from Users in a variety of ways, including, but not limited to, when Users visit our site, register on the site, place an order, and in connection with other activities, services, features or resources we make available on our Site. Users may be asked for, as appropriate, name, email address, mailing address, phone number. Users may, however, visit our Site anonymously. We will collect personal identification information from Users only if they voluntarily submit such information to us. Users can always refuse to supply personally identification information, except that it may prevent them from engaging in certain Site related activities.</p>
-            <h2 class="title-bg bg-orange color-orange text-center"> 
+            <h2 class="text-center"> 
              NON-PERSONAL IDENTIFICATION INFORMATION
              </h2>
             <p class="lead text-left">
@@ -29,7 +29,7 @@ const Privacy = () => {
             <p class="lead text-left">
              Our Site may use "cookies" to enhance User experience. User's web browser places cookies on their hard drive for record-keeping purposes and sometimes to track information about them. User may choose to set their web browser to refuse cookies, or to alert you when cookies are being sent. If they do so, note that some parts of the Site may not function properly.
             </p>
-            <h2 class="title-bg bg-orange color-orange text-center"> 
+            <h2 class="text-center"> 
              HOW WE USE COLLECTED INFORMATION
              </h2>
             <p class="lead text-left">
@@ -44,14 +44,14 @@ const Privacy = () => {
             
             </ol>
             </p>
-            <h2 class="title-bg bg-orange color-orange text-center"> 
+            <h2 class="text-center"> 
              HOW WE PROTECT YOUR INFORMATION
              </h2>
             <p class="lead text-left">
              We adopt appropriate data collection, storage and processing practices and security measures to protect against unauthorized access, alteration, disclosure or destruction of your personal information, username, password, transaction information and data stored on our Site.<br />
              Sensitive and private data exchange between the Site and its Users happens over a SSL secured communication channel and is encrypted and protected with digital signatures. Our Site is also in compliance with PCI vulnerability standards in order to create as secure of an environment as possible for Users.
             </p>
-            <h2 class="title-bg bg-orange color-orange text-center"> 
+            <h2 class="text-center"> 
              SHARING YOUR PERSONAL INFORMATION
              </h2>
             <p class="lead text-left">
