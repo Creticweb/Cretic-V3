@@ -25,6 +25,7 @@ import FSSAI from "./page/fssai";
 import DSC from "./page/dsc";
 import Policy from "./page/policy";
 import Refund from "./page/refundp";
+import GSTCAL from "./page/gstcal";
 import NotFound from "./page/notfound";
 
 const schemaMarkup = {
@@ -65,6 +66,7 @@ function App() {
 			  <Route path="/refund-policy" component={Refund} />
 		          <Route path="/privacy" component={Policy} />
 			  <Route path="/contact" component={Contact} />
+			  <Route path="/gst-calculator" component={GSTCAL} />
 			   <Route path="/not-found" component={NotFound} />
           <Redirect to="/not-found" />
             </Switch>

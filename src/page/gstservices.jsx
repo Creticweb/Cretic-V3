@@ -2,6 +2,8 @@ import React from 'react';
 import GSTREG from '../components/gstreg';
 import GSTFAQ from '../components/gstfaq';
 import Footer from "../components/footer";
+import gstin from "../assets/core/gst.svg";
+import comp from "../assets/core/compliances.svg";
 import {Helmet} from "react-helmet";
 
 const GSTServices = (props) => {
@@ -37,7 +39,7 @@ const GSTServices = (props) => {
               <div class="col-md-6 col-lg-4 mb-3 mb-lg-0 padding-r-5">
                 <div class="items_serv sevice_block">
                   <div class="icon--top">
-                    <img src="../../assets/img/icons/Compass.svg" alt="" />
+                    <img src={gstin} alt="GSTIN" />
                   </div>
                   <div class="txt">
                     <h3>GSTIN</h3>
@@ -63,7 +65,7 @@ const GSTServices = (props) => {
               <div class="col-md-6 col-lg-4">
                 <div class="items_serv sevice_block">
                   <div class="icon--top">
-                    <img src="../../assets/img/icons/cupboard.svg" alt="" />
+                    <img src={comp} alt="Compliances" />
                   </div>
                   <div class="txt">
                     <h3>Compliances</h3>

@@ -28,7 +28,7 @@ export default function Contact() {
             );
             const json = await response.json();
             console.log("Success:", JSON.stringify(json));
-            setMessage("Success");
+            setMessage("Application Successfully Submitted 😊");
         } catch (error) {
             console.error("Error:", error);
             setMessage("Error");
@@ -180,10 +180,9 @@ export default function Contact() {
                     type="submit" 
                     value="Submit" />
                   </div>
-                
-                  {message}
-
                 </form>
+                <br/>
+                                {<div class="alert alert-success alert-dismissible fade show" role="alert">{message}</div>}
                 <br/>
                  <div class="alert alert-danger alert-dismissible fade show" role="alert">
                    Note:- Mobile Number Must Be Registered With Aadhaar for OTP XXX Verification
