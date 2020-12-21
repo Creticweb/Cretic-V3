@@ -3,7 +3,7 @@ import Footer from '../components/footer';
 import img1 from "../assets/core/bene.svg";
 import img2 from "../assets/core/required.svg";
 import img3 from "../assets/core/goverment.svg";
-import img3 from "../assets/core/eligi.svg";
+import img4 from "../assets/core/eligi.svg";
 import MSMEAL from '../components/msmeapply';
 import {Helmet} from "react-helmet";
 const MSME = (props) => {
