@@ -145,7 +145,7 @@ const MSME = (props) => {
               <li className="nav-item" role="presentation">
                 <a className="nav-link" id="pills-integ-tab" data-toggle="pill" href="#pills-integ" role="tab" aria-controls="pills-integ" aria-selected="false">
                   <div className="icon">
-                    <img src="https://i.postimg.cc/sfJHwd1m/competence.png" alt="icon" />
+                    <img class="img-fluid" src="https://i.postimg.cc/sfJHwd1m/competence.png" alt="icon" />
 	          </div>
                   <h3>MSME/Udyog Aadhaar Eligibility</h3>
                   <div className="prog" />
