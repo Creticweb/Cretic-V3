@@ -23,6 +23,7 @@ import MSME from "./page/msme";
 import GSTR from "./page/gstr";
 import FSSAI from "./page/fssai";
 import DSC from "./page/dsc";
+import Policy from "./page/policy";
 import Refund from "./page/refundp";
 import NotFound from "./page/notfound";
 
@@ -62,6 +63,7 @@ function App() {
 			  <Route path="/gst-filing" component={GSTR} />
 			  <Route path="/dsc" component={DSC} />
 			  <Route path="/refund-policy" component={Refund} />
+		          <Route path="/privacy" component={Policy} />
 			  <Route path="/contact" component={Contact} />
 			   <Route path="/not-found" component={NotFound} />
           <Redirect to="/not-found" />
