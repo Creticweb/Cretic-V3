@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../components/footer';
+import MSMEAL from '../components/msmeapply';
 import {Helmet} from "react-helmet";
 const MSME = (props) => {
 
@@ -166,6 +167,7 @@ const MSME = (props) => {
           </div>
         </div>
       </div>
+      <MSMEAL/>
     <Footer/>
    </React.Fragment>
   );
