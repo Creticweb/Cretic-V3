@@ -19,7 +19,7 @@ const GSTRP = (props) => {
                   </div>
                   <h4 className="name_p">GST NIL RETURN</h4>
                   <div className="number">
-                    <span className="n_price">₹149</span>
+                    <span className="n_price">₹159</span>
                     <span className="coins">.00</span>
                     <span className="d-block per">all inclusive fees</span>
                   </div>
