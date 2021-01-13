@@ -36,7 +36,7 @@ const Navbar = (props) => {
                 </li>
               </ul>
               <div className="nav_account btn_demo3">
-                <a href="/" className="btn btn_sm_primary border-0 sweep_letter sweep_top bg-lightgreen c-white rounded-pill">
+                <a href="https://api.whatsapp.com/send?phone=+919647540052" className="btn btn_sm_primary border-0 sweep_letter sweep_top bg-lightgreen c-white rounded-pill">
                   <div className="inside_item">
                     <span data-hover="Let's go">Whatsapp</span>
                   </div>
