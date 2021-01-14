@@ -27,6 +27,7 @@ import Policy from "./page/policy";
 import Refund from "./page/refundp";
 import GSTCAL from "./page/gstcal";
 import NotFound from "./page/notfound";
+import Test from "./page/test";
 
 const schemaMarkup = {
   "@context": "http://schema.org/",
@@ -67,6 +68,7 @@ function App() {
 		          <Route path="/privacy" component={Policy} />
 			  <Route path="/contact" component={Contact} />
 			  <Route path="/gst-calculator" component={GSTCAL} />
+			  <Route path="/test" component={Test} />
 			   <Route path="/not-found" component={NotFound} />
           <Redirect to="/not-found" />
             </Switch>
